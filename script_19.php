@@ -23,7 +23,7 @@ $number=$_POST['Number'];
 if($number==2){
     echo "The number is prime.";
 }
-elseif($number%2==0 || $number%3==0 || $number%5==0){
+elseif($number%2==0  $number%3==0 || $number%5==0){
     echo "The number is not prime";
 
 }
